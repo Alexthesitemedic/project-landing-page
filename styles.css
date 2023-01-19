@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    color: #f9faf8;
+    background-color: #1f2937;
+}
+
+.menu-container {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    border: 1px solid #fff;
+    flex: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.welcome-container {
+    display: flex;
+    justify-content: center;
+}
+
+.header-logo {
+    font-size: 24px;
+}
+
+.link-one,
+.link-two,
+.link-three {
+    font-size: 18px;
+}
